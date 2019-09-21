@@ -11,6 +11,10 @@ export class User extends Typegoose {
 
     @ApiModelProperty({})
     @prop()
+    facebookToken: string;
+
+    @ApiModelProperty({})
+    @prop()
     name: string;
 
     @ApiModelProperty({})
